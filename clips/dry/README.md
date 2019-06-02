@@ -1,25 +1,21 @@
-# lukaszlach / clips / dive
+# Rachid Zarouali / clips / dry
 
-Run [dive](https://github.com/wagoodman/dive) and explore contents of the image layers.
+Run [dry](https://github.com/moncho/dry) and explore contents of the image layers.
 
 ![](https://raw.githubusercontent.com/lukaszlach/clip/master/clips/dive/record.gif)
 
 ```
-docker dive IMAGE
+docker dry -e DOCKER_HOST=$DOCKER_HOST
 ```
 
 ## Install
 
 ```bash
-$ docker clip add lukaszlach/clips:dive
+$ docker clip add rachidzarouali/clips:dry
 ```
 
 ## Usage
 
 ```bash
-$ docker dive nginx:1.15
-Fetching image... (this can take a while with large images)
-Parsing image...
-Analyzing image...
-Building cache...
+$ docker dry
 ```
