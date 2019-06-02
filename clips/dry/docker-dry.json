@@ -1,0 +1,6 @@
+{
+  "SchemaVersion": "0.1.0",
+  "Vendor": "Rachid Zarouali",
+  "Version": "v0.9",
+  "ShortDescription": "a CLI tool to manage your docker host"
+}
